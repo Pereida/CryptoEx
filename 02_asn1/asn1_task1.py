@@ -1,7 +1,5 @@
 #!/usr/bin/env python
 import sys   # do not use any other imports/libraries
-# Cesar Pereida
-# It took around 9 hours of work
 
 def int_to_bytestring(i):
     # i - arbitrary integer (of type 'int' or 'long')
