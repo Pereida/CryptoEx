@@ -3,8 +3,6 @@
 import argparse, hashlib, os, sys # do not use any other imports/libraries
 from pyasn1.codec.der import decoder
 
-# Cesar Pereida - around 8 hours of work.
-
 # parse arguments
 parser = argparse.ArgumentParser(description='generate self-signed X.509 CA certificate', add_help=False)
 parser.add_argument("private_key_file", help="Private key file (in PEM or DER form)")
