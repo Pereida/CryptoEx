@@ -11,8 +11,6 @@ from Crypto.Util.strxor import strxor  # https://www.dlitz.net/software/pycrypto
 import hashlib, hmac # do not use any other imports/libraries
 
 
-# Cesar Pereida, total time around 7 hours
-
 def int_to_bytestring(i):
     # i - arbitrary integer (of type 'int' or 'long')
     # returns the byte string representation of int
