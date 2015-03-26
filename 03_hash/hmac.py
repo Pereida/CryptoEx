@@ -6,9 +6,6 @@ from pyasn1.codec.der import decoder
 sys.path = sys.path[1:] # removes script directory from hmac.py search path
 import hmac # do not use any other imports/libraries
 
-# 5 hours of work required
-# Cesar Pereida 
-
 def int_to_bytestring(i):
     # i - arbitrary integer (of type 'int' or 'long')
     # returns the byte string representation of int
