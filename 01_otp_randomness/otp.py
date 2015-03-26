@@ -1,7 +1,5 @@
 #!/usr/bin/env python
 import os, sys       # do not use any other imports/libraries
-# The total time of resolution was around 4.5 hours
-# Cesar Pereida
 
 def bytestring_to_int(s):
     # initialize i to 0
