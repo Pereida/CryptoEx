@@ -3,8 +3,6 @@
 import hashlib, os, sys # do not use any other imports/libraries
 from pyasn1.codec.der import decoder
 
-# Cesar Pereida - around 9 hours to complete
-
 def int_to_base128_bytestring(i):
     # i - arbitrary integer (of type 'int' or 'long')
     # returns the byte string representation of int in base 128
